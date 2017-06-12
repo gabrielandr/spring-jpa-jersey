@@ -1,3 +1,16 @@
+# Modifications made by Gabriel Andrade
+
+- A new service class to list all countries in the DB 
+	http://localhost:8090/rest/countries
+- A new service class to insert a new country - http://localhost:8090/rest/insertCountry/NameOfTheCountry
+	http://localhost:8090/rest/insertCountry/Mexico
+- A new service to delete cities from a particular country
+	http://localhost:8090/rest/deleteCities?country=Brazil
+	
+- A new feture to include new cities into the DB from a CSV file
+	Done by including a couple of lines in db_init.h2.sql file
+	
+
 # Skills in Spring, Data manipulation and JAX RS
 Here you will find a scaffold of a project that aims to expose a REST service to list cities.
 You need to upgrade the project to the newest versions and implement this service using any necessary means.
